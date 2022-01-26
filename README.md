@@ -14,7 +14,7 @@ Rather than locating the clinics at a flagship campus in each Borough (Brooklyn 
 The Data used for this analysis came from three sources:
 1. MTA Turnstile data (http://web.mta.info/developers/turnstile.html) Lists counts of entrances and exits at each turnstile at each subway station
 2. NYC Transit Subway Entrance and Exit data (https://data.ny.gov/Transportation/NYC-Transit-Subway-Entrance-And-Exit-Data/i9wp-a4ja) Lists latitudes and longitudes for each subway station
-3. CUNY Campus Locations (https://data.ny.gov/Education/City-University-of-New-York-CUNY-University-Campus/irqs-74ez/data) Lists latitudes and longitudes for 25 CUNY campuses
+3. CUNY Campus Locations data (https://data.ny.gov/Education/City-University-of-New-York-CUNY-University-Campus/irqs-74ez/data) Lists latitudes and longitudes for 25 CUNY campuses
 
 The MTA Turnstile data was limited to the months spanning the Fall 2021 Semester, August through December, as a way of predicting traffic patterns during the spring semester. The most recent semester was chosen (rather than the Spring 2021 semester) because it is likely that Covid-19 protocols affecting traffic flow were the most similar in the most recent past. Compiling the data for five months created an initial database of 4,409,348 rows.
 
