@@ -18,7 +18,7 @@ The Data used for this analysis came from three sources:
 
 The MTA Turnstile data was limited to the months spanning the Fall 2021 Semester, August through December, as a way of predicting traffic patterns during the spring semester. The most recent semester was chosen (rather than the Spring 2021 semester) because it is likely that Covid-19 protocols affecting traffic flow were the most similar in the most recent past. Compiling the data for five months created an initial database of 4,409,348 rows.
 
-## Algorithms/Methodology
+## Methodology
 1. Used Metis-provided Python script used to download 5 months of data and format it as a SQLite database
 2. Explored the database in DB Browswer for SQLite and realized I would not be able to have the time granularity I had hoped
 3. Loaded all three data sets into Pandas and cleaned them
