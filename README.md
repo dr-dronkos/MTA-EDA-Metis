@@ -21,7 +21,7 @@ The MTA Turnstile data was limited to the months spanning the Fall 2021 Semester
 ## Algorithms/Methodology
 1. Used Metis-provided Python script used to download 5 months of data and format it as a SQLite database
 2. Explored the database in DB Browswer for SQLite and realized I would not be able to have the time granularity I had hoped
-3. Loaded all three data sets into Pandas
+3. Loaded all three data sets into Pandas and cleaned them
 4. Calculated Haversine distance from latitude and longitude dataframes for stations and campuses
 5. Used new distance dataframe to limit station location dataframe and campus location dataframe to only stations and campuses < 0.5 miles from each other
 7. Calculated Levenshtein distances between station names in the turnstile dataframe and the station names in the limited station location dataframe and added the station location name that best matched to each row of the turnstile datagrame (this was very computationally taxing and if I were to do this again I would do this differently, but it took so long to run that I just worked with the output it generated!)
