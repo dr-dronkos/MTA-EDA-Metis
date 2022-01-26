@@ -24,10 +24,16 @@ The MTA Turnstile data was limited to the months spanning the Fall 2021 Semester
 3. Loaded all three data sets into Pandas and cleaned them
 4. Calculated Haversine distance from latitude and longitude dataframes for stations and campuses
 5. Used new distance dataframe to limit station location dataframe and campus location dataframe to only stations and campuses < 0.5 miles from each other
-7. Calculated Levenshtein distances between station names in the turnstile dataframe and the station names in the limited station location dataframe and added the station location name that best matched to each row of the turnstile datagrame (this was very computationally taxing and if I were to do this again I would do this differently, but it took so long to run that I just worked with the output it generated!)
+7. Calculated Levenshtein distances between station names in the turnstile dataframe and the station names in the limited station location dataframe and added the station location name that best matched to each row of the turnstile dataframe (this was very computationally taxing and if I were to do this again I would do this differently, but it took so long to run that I just worked with the output it generated!)
 8. Inner joined the limited station location dataframe with the turnstile dataframe using the Levenshtein distances calculations (and then manually corrected for mismatched stations) to limit the data to only stations near CUNY campuses
-9. Grouped the 
-
+9. Find the sum of all turnstiles at each station on each data at each time
+10. Found the number of exits tallied each day for each station by subtracting the min from the max of the summed station exit data (necessary because the counts don't reset each date or time period but are cumulative; I considered subtracting the earliest count on each day from the latest count, but figured finding the range was functionally equivalent for my purposes)
+11. Found the number of entrances tallied each day for each station by subtracting the min from the max of the summed station entrance data
+12. Summed the entrance and exit data for each station for each day, giving an estimate of total foot traffic in that station for an entire day
+13. Took the average of the total daily foot traffic for each station for all five months
+14. Pooled the average daily foot traffic for all the stations near each CUNY campus, and used that as an estimate of total daily foot traffic for that campus
+15. Sorted the data to find the 5 CUNY campuses with the most average daily foot traffic
+16. Plotted the data for presenting, using Geopandas to create maps, and MatplotLib to make bar plots
 
 ## Tools
 1. DB Browser for SQLite -- Explore MTA turnstile data
