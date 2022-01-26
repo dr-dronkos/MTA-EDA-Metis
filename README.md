@@ -44,3 +44,4 @@ The MTA Turnstile data was limited to the months spanning the Fall 2021 Semester
 6. Fuzzywuzzy -- Calculating Levenshtein distances between strings to match station names following different naming conventions across the datasets
 
 ## Communication
+[Metis EDA Presentation.pdf](https://github.com/dr-dronkos/MTA-EDA-Metis/files/7938680/Metis.EDA.Presentation.pdf)
