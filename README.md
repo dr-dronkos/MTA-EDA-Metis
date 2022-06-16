@@ -1,6 +1,6 @@
 # MTA-EDA-Metis
 
-# Using MTA Turnstile Data to Measure Foot Traffic Near CUNY Campuses
+# Using MTA Turnstile Data to Determine Covid-19 Clinic Locations
 
 ## Abstract
 This project used MTA Turnstile Data as a proxy for foot traffic to look at which five City University of New York (CUNY) campuses would be the best sites for new Covid-19 clinics. By pairing latitude and longitude data with turnstile count data, I was able to limit my focus to only stations located less than 0.5 miles from a CUNY campus, and only CUNY campuses located less than 0.5 miles from a MTA subway station. I calculated the average subway ridership for each station on a given day during the Fall 2021 semester, and summed the averages for all the stations near each CUNY campus to estimate the daily foot traffic for that campus. The five campuses with the highest estimated foot traffic were: Guttman Community College, The School of Journalism, The Graduate Center, The School of Professional Studies, and The School of Labor and Urban Studies. These schools are all located less than 0.5 miles from 8 or more subway stations, contributing to their high foot traffic estimates. After completing this analysis, I recommend the locations of the new clinics be balanced for both geographic spread and proximity to MTA subway stations.
