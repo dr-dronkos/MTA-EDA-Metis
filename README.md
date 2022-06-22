@@ -46,5 +46,6 @@ The MTA Turnstile data was limited to the months spanning the Fall 2021 Semester
 
 ## Communication
 Powerpoint slides:[Updated Metis EDA slides.pdf](https://github.com/dr-dronkos/MTA-EDA-Metis/files/8961489/Updated.Metis.EDA.slides.pdf)
+
 Interactive Tableau dashboard: https://public.tableau.com/app/profile/danielle.ronkos/viz/UsingMTASubwayRidershiptoEstimateFootTrafficNearCUNYCampuses/UsingMTASubwayRidershiptoEstimateFootTrafficnearCUNYCampuses
 
