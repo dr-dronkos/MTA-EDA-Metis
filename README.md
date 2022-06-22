@@ -42,7 +42,9 @@ The MTA Turnstile data was limited to the months spanning the Fall 2021 Semester
 4. Geopandas -- Plotting latitude and longitude data on a map of the 5 Boroughs
 5. Matplotlib -- Plotting turnstile averages
 6. Fuzzywuzzy -- Calculating Levenshtein distances between strings to match station names following different naming conventions across the datasets
+7. Tableau -- Creating interactive dashboard with map of campuses, subway stations, and aggregated estimated foot traffic
 
 ## Communication
-[Metis_EDA_Presentation.pdf](https://github.com/dr-dronkos/MTA-EDA-Metis/files/7938715/Metis_EDA_Presentation.pdf)
+Powerpoint slides: [Updated Metis MTA EDA slides.pdf](https://github.com/dr-dronkos/MTA-EDA-Metis/files/8961366/Updated.Metis.MTA.EDA.slides.pdf)
+Interactive Tableau dashboard: https://public.tableau.com/app/profile/danielle.ronkos/viz/UsingMTASubwayRidershiptoEstimateFootTrafficNearCUNYCampuses/UsingMTASubwayRidershiptoEstimateFootTrafficnearCUNYCampuses
 
