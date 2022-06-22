@@ -1,4 +1,4 @@
-# Using MTA Turnstile Data to Determine Covid-19 Clinic Locations-EDA-Metis
+# MTA-EDA-Metis
 
 # Using MTA Turnstile Data to Determine Covid-19 Clinic Locations
 
